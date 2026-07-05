@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div id="preloader">
+    <div class="loader-container">
+            <div class="pulse-ring"></div>
+            <div class="airplane-icon">&#9992;</div>
+            <div class="loading-text">Preparing Your Journey</div>
+        </div>
+   </div>
+
+<section id="top">
+   <div id="bg">
+   
+ 
+    <nav  class="mynav navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+  <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>
+</svg> Flight Experts</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#flights">Flights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tours">Tours</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#feedback">Feedback</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item mode">
+         <button id="themeToggle" class="theme-toggle-btn">
+  <span id="themeIcon">&#9789;</span> </button>
+        
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</nav>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="carousel1" style="height:700px" src="https://wallpaperaccess.com/full/895.jpg" class="d-block w-100 pics" alt="Destination Images">
+    </div>
+    <div class="carousel-item">
+      <img class="carousel1" style="height:700px" src="https://wallpaperaccess.com/full/3292842.jpg" class="d-block w-100 pics" alt="Destination Images">
+    </div>
+    <div class="carousel-item">
+      <img class="carousel1" style="height:700px" src="https://wallpapercave.com/wp/wp7147775.jpg" class="d-block w-100 pics" alt="Destination Images">
+    </div>
+    <div class="carousel-caption d-none d-md-flex">
+      <h5 class="hero-subtitle">Bespoke Adventures</h5>
+      <h1 class="hero-title">Unveil Elite Destinations</h1>
+      <p class="hero-text">Travel tailored exclusively to your highest expectations.</p>
+         <div class="hero-buttons">
+          <a href="#" class="btn-luxury">Explore Journeys</a>
+          <a href="#" class="btn-outline">Contact an Agent</a>
+        </div>
+
+
+    </div>
+</div>
+</section>
+<br>
+<section id="home">
+
+  <div id="divide2" class ="divide">
+  
+  <section id="features" class="features-section">
+  <div class="container">
+    
+    <div class="section-header">
+      <h5 class="feature-subtitle">WHY CHOOSE US</h5>
+      <h2 class="feature-main-title">Elevated Travel Experiences</h2>
+      <div class="title-divider"></div>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="feature-card">
+          <div class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+              <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+              <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+            </svg>
+          </div>
+          <h4>Easy Booking</h4>
+          <p>Seamlessly plan your next itinerary with our intuitive, premium layout designed for discerning travelers.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="feature-card">
+          <div class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-lightning" viewBox="0 0 16 16">
+              <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1z"/>
+            </svg>
+          </div>
+          <h4>Fast Process</h4>
+          <p>Skip the queues. Expect instant confirmations and elite, white-glove support at every single step.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="feature-card">
+          <div class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+              <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+            </svg>
+          </div>
+          <h4>Secure Payment</h4>
+          <p>Your transactions are shielded with ultra-secure, end-to-end encrypted luxury merchant channels.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    </section>
+
+
+
+<section   id="booking-section">
+
+
+    
+    <div class="container">
+    
+    <div class="section-header text-center">
+      <h5 class="booking-subtitle">Seamless Travel</h5>
+      <h2 class="booking-title">Flight Reservations</h2>
+      <p class="booking-lead">Plan your journey with reliable and flexible flight options</p>
+      <div class="title-divider"></div>
+    </div>
+
+    <div id="bigdiv" class="booking-card">
+      <div class="row align-items-center g-5">
+        
+        <div class="col-lg-7">
+          <form id="booking-form">
+            
+            <div class="row g-3 mb-4">
+              <div class="col-md-6">
+                <div class="input-wrapper">
+                  <input id="inputs1" class="form-input" type="text" placeholder="From?">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-wrapper">
+                  <input id="inputs2" class="form-input" type="text" placeholder="Where to?">
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3 mb-5">
+              <div class="col-md-6">
+                <div class="input-wrapper">
+                  <input id="inputs3" class="form-input" type="number" min="1" placeholder="Passenger Number">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-wrapper">
+                  <select id="inputs4" class="form-input select-input">
+                    <option selected disabled hidden>Cabin Class</option> 
+                    <option>Economy</option>
+                    <option>Premium Economy</option>
+                    <option>Business</option>
+                    <option>First Class</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <button id="book" class="btn-luxury">Book Now</button>
+          </form>
+        </div>
+
+        <div class="col-lg-5 text-center d-none d-lg-block">
+          <div class="image-frame">
+            <img id="img1" src="https://tse4.mm.bing.net/th/id/OIP.8LP36rWzcM3dP_iNtSq3egHaEm?rs=1&pid=ImgDetMain&o=7&rm=3" alt="aircraft">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  </section>
+  </section>
+
+  <section id="payment-section" style="display: none;" >
+  <div class="container">
+    
+    <div class="section-header text-center">
+      <h5 class="payment-subtitle">Secure Checkout</h5>
+      <h2 class="payment-title">Finalize Your Journey</h2>
+      <p class="payment-lead">Complete your reservation using our premium encrypted payment portal</p>
+      <div class="title-divider"></div>
+    </div>
+
+    <div id="payment-div" class="payment-card">
+      <div class="row align-items-center g-5">
+        
+        <div class="col-lg-7">
+          <form id="payment-form">
+            
+            <div class="row g-3 mb-4">
+              <div class="col-12">
+                <div class="input-wrapper">
+                  <input id="card-number" class="form-input" type="text" placeholder="Card Number (0000 0000 0000 0000)" maxlength="19">
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3 mb-4">
+              <div class="col-md-6">
+                <div class="input-wrapper">
+                  <input id="card-expiry" class="form-input" type="text" placeholder="MM / YY" maxlength="5">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-wrapper">
+                  <input id="card-cvv" class="form-input" type="password" placeholder="CVV" maxlength="4">
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3 mb-5">
+              <div class="col-12">
+                <div class="input-wrapper">
+                  <input id="card-name" class="form-input" type="text" placeholder="Cardholder Name">
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" id="pay-now" class="btn-luxury">Confirm & Pay</button>
+          </form>
+        </div>
+
+        <div class="col-lg-5 text-center d-none d-lg-block">
+          <div class="payment-badge-frame">
+            <div id="payment-badge">
+              <div class="badge-content">
+                <span class="gold-text">100%</span>
+                <p class="secure-text">Secure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="flights" class="flights-section">
+  <div id="appear" class="container py-5">
+
+    <div class="section-header text-center mb-5">
+      <h5 class="flights-subtitle">EXCLUSIVE OFFERS</h5>
+      <h2 class="flights-title">Featured Destinations</h2>
+      <div class="luxury-divider"></div>
+    </div>
+
+ <div class="row g-4 justify-content-center">
+   
+   <div class="col-lg-4 col-md-6 col-12">
+        
+  <div class="destination-card">
+    <div class="card-img-wrapper">
+      <img class="destination-img" src="https://tse3.mm.bing.net/th/id/OIP.luKkDxt8BN_8yi6w5wk9PgHaDQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Egypt">
+      <div class="destination-overlay"></div>
+      <span class="destination-tag">Trending</span>
+    </div>
+    <div id="cardbody" class="destination-body">
+      
+      <div class="destination-rating">
+        <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="rating-text">(4.9)</span>
+      </div>
+
+      <div id="cardhead" class="destination-header-meta">
+        <h3 class="destination-title">Egypt</h3>
+      </div>
+      
+      <p id="textid" class="destination-text">Discover ancient wonders and timeless history. From pyramids to Nile, experiencing a journey like no other.</p>
+      
+      <div class="destination-price-wrapper">
+        <span class="price-label">From</span>
+        <span class="price-amount">$1,250</span>
+        <span class="price-meta">/ person</span>
+      </div>
+
+      <button id="btnss" type="button" class="btn-destination-action">Book Journey</button>
+    </div>
+  </div>
+</div>
+
+            
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="destination-card">
+          <div class="card-img-wrapper">
+            <img class="destination-img" src="https://tse4.mm.bing.net/th/id/OIP.zL7KoD-PNkLegbq4WKGhjAHaEC?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Canada">
+            <div class="destination-overlay"></div>
+            <span class="destination-tag">Popular</span>
+          </div>
+          <div id="cardbody2" class="destination-body">
+            <div class="destination-rating">
+              <span class="stars">&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="rating-text">(4.3)</span>
+            </div>
+
+            <div id="cardhead2" class="destination-header-meta">
+              <h3 class="destination-title">Canada</h3>
+            </div>
+            <p id="textid2" class="destination-text">Explore breathtaking landscapes and vibrant cities. Perfect for nature lovers and urban explorers.</p>
+              <div class="destination-price-wrapper">
+                <span class="price-label">From</span>
+                <span class="price-amount">$1,520</span>
+                <span class="price-meta">/ person</span>
+              </div>
+
+            <button id="btnss2" type="button" class="btn-destination-action">Book Journey</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="destination-card">
+          <div class="card-img-wrapper">
+            <img class="destination-img" src="https://tse3.mm.bing.net/th/id/OIP.1BSoaPwcPAfcpGuCenkGrwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Poland">
+            <div class="destination-overlay"></div>
+            <span class="destination-tag">Explore</span>
+          </div>
+          <div id="cardbody3" class="destination-body">
+            <div class="destination-rating">
+              <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="rating-text">(5)</span>
+            </div>
+
+            <div id="cardhead3" class="destination-header-meta">
+              <h3 class="destination-title">Poland</h3>
+            </div>
+            <p id="textid3" class="destination-text">A blend of rich history and modern charm. Walk through historic towns, castles, and cultural landmarks.</p>
+            <div class="destination-price-wrapper">
+                <span class="price-label">From</span>
+                <span class="price-amount">$1,200</span>
+                <span class="price-meta">/ person</span>
+            </div>
+
+            <button id="btnss3" type="button" class="btn-destination-action">Book Journey</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section id="tours">
+
+  <section id="tours-packages" class="tours-section">
+  <div class="container py-5">
+    
+
+    <div class="section-header text-center mb-5">
+      <h5 class="tours-subtitle">CURATED EXPERIENCES</h5>
+      <h2 class="tours-main-title">Popular Tours & Packages</h2>
+      <div class="luxury-divider"></div>
+    </div>
+
+
+    <div class="carousel-window">
+      <div class="carousel-track" id="tourTrack">
+        
+ 
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Kyoto">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn" aria-label="Add to favorites">&#9825;</button>
+              <span class="tour-duration-tag">7 Days / 6 Nights</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Cultural</span>
+                <div class="tour-stars">&#9733; 4.9</div>
+              </div>
+              <h3 class="tour-title">Kyoto Autumn Serenity</h3>
+              <p class="tour-desc">Immerse yourself in traditional tea houses, vibrant bamboo forests, and stunning golden shrines.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from">From</span>
+                  <span class="tour-price-val">$1,890</span>
+                </div>
+                <button class="tour-action-link">Explore Package</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Santorini">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn" aria-label="Add to favorites">&#9825;</button>
+              <span class="tour-duration-tag">5 Days / 4 Nights</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Honeymoon</span>
+                <div class="tour-stars">&#9733; 4.8</div>
+              </div>
+              <h3 class="tour-title">Santorini Caldera Sunsets</h3>
+              <p class="tour-desc">Relax over pristine white-washed cliffs overlooking deep Aegean blue waters and iconic infinity horizons.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from">From</span>
+                  <span class="tour-price-val">$2,100</span>
+                </div>
+                <button class="tour-action-link">Explore Package</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Alps">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn" aria-label="Add to favorites">&#9825;</button>
+              <span class="tour-duration-tag">8 Days / 7 Nights</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Adventure</span>
+                <div class="tour-stars">&#9733; 5.0</div>
+              </div>
+              <h3 class="tour-title">Alpine Majestic Peaks</h3>
+              <p class="tour-desc">Journey through Swiss mountain passes, mirror lakes, and historic alpine chalets via luxury panoramic trains.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from">From</span>
+                  <span class="tour-price-val">$2,450</span>
+                </div>
+                <button class="tour-action-link">Explore Package</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Amalfi">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn" aria-label="Add to favorites">&#9825;</button>
+              <span class="tour-duration-tag">6 Days / 5 Nights</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Luxury Coast</span>
+                <div class="tour-stars">&#9733; 4.9</div>
+              </div>
+              <h3 class="tour-title">Amalfi Romance & Villas</h3>
+              <p class="tour-desc">Stroll private citrus groves, ancient cliffside roads, and experience sunset yachts along the coast.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from">From</span>
+                  <span class="tour-price-val">$2,780</span>
+                </div>
+                <button class="tour-action-link">Explore Package</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+
+
+<section id="hot-deals" class="hot-deals-section">
+  <div class="container py-5">
+    
+    <div class="section-header text-center mb-5">
+      <h5 class="deals-subtitle">LIMITED TIME OFFERS</h5>
+      <h2 class="deals-main-title">Today's Hot Deals</h2>
+      <div class="luxury-divider"></div>
+    </div>
+
+    <div class="carousel-window">
+      <div class="carousel-track" id="dealsTrack">
+        
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Maldives">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn">&#9825;</button>
+              <span class="deal-tag-badge">Save 35%</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Resort & Spa</span>
+                <div class="tour-stars">&#9733; 4.9</div>
+              </div>
+              <h3 class="tour-title">Maldives Overwater Luxury</h3>
+              <p class="tour-desc">Wake up over crystal clear turquoise lagoons in a private villa with personal ocean deck access.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from"><del>$3,400</del> Now from</span>
+                  <span class="tour-price-val">$2,210</span>
+                </div>
+                <button class="tour-action-link">Claim Deal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Paris">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn">&#9825;</button>
+              <span class="deal-tag-badge">Last Minute</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">City Break</span>
+                <div class="tour-stars">&#9733; 4.7</div>
+              </div>
+              <h3 class="tour-title">Parisian Romance Escape</h3>
+              <p class="tour-desc">Stroll along the Seine, visit world-class museums, and enjoy boutique accommodations near the Eiffel Tower.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from"><del>$1,200</del> Now from</span>
+                  <span class="tour-price-val">$890</span>
+                </div>
+                <button class="tour-action-link">Claim Deal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Tokyo">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn">&#9825;</button>
+              <span class="deal-tag-badge">Flash Sale</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Urban Explore</span>
+                <div class="tour-stars">&#9733; 4.8</div>
+              </div>
+              <h3 class="tour-title">Neon Lights Tokyo Express</h3>
+              <p class="tour-desc">Experience the perfect mix of ultra-modern skyscrapers and ancient historic shrines.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from"><del>$1,950</del> Now from</span>
+                  <span class="tour-price-val">$1,450</span>
+                </div>
+                <button class="tour-action-link">Claim Deal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-card-wrapper">
+          <div class="tour-card">
+            <div class="tour-img-box">
+              <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=600&auto=format&fit=crop" class="tour-img" alt="Iceland">
+              <div class="tour-img-overlay"></div>
+              <button class="favorite-heart-btn">&#9825;</button>
+              <span class="deal-tag-badge">Save $400</span>
+            </div>
+            <div class="tour-content">
+              <div class="tour-meta-row">
+                <span class="tour-badge">Adventure</span>
+                <div class="tour-stars">&#9733; 5.0</div>
+              </div>
+              <h3 class="tour-title">Icelandic Northern Lights</h3>
+              <p class="tour-desc">Chasing waterfalls, relaxing in thermal hot springs, and viewing magical night skies.</p>
+              <div class="tour-footer">
+                <div class="tour-pricing">
+                  <span class="tour-price-from"><del>$2,200</del> Now from</span>
+                  <span class="tour-price-val">$1,800</span>
+                </div>
+                <button class="tour-action-link">Claim Deal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="#flights" class="btn-view-all-destinations">View All Destinations</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<h4 style="margin-top: 40px;"><span id="dot"></span><span id="number">2465</span> travelers are planning their trip right now!</h4>
+
+
+<hr>
+
+
+<section id="feedback" class="parallax-feedback-section">
+  <div class="parallax-overlay"></div>
+  
+  <div class="container unique-feedback-container">
+    
+    <div class="section-header text-center mb-5">
+      <h5 class="feedback-subtitle">TESTIMONIALS</h5>
+      <h2 class="feedback-main-title">Stories from Our Travelers</h2>
+      <div class="luxury-divider"></div>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="testimonial-card">
+          <div class="testimonial-quote-icon">&#8220;</div>
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Best trip ever! Everything was so effortless to book. The attention to detail on our itinerary made our vacation completely seamless."</p>
+          <div class="testimonial-profile">
+            <div class="profile-info">
+              <h4 class="profile-name">Sarah Jenkins</h4>
+              <span class="profile-destination">Visited Hawaii</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="testimonial-card">
+          <div class="testimonial-quote-icon">&#8220;</div>
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"I booked my entire flight to Lisbon in just 5 minutes. The layout is incredibly clean and intuitive—I didn't even need a tutorial to navigate it."</p>
+          <div class="testimonial-profile">
+            <div class="profile-info">
+              <h4 class="profile-name">Sami Al-Awar</h4>
+              <span class="profile-destination">Visited Lisbon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="testimonial-card">
+          <div class="testimonial-quote-icon">&#8220;</div>
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="testimonial-text">"Zero stress, 100% adventure! Booking was a breeze from start to finish. I'll definitely be utilizing this agency for my upcoming holiday plans."</p>
+          <div class="testimonial-profile">
+            <div class="profile-info">
+              <h4 class="profile-name">Johny Vance</h4>
+              <span class="profile-destination">Visited Berlin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+   <section id="contact" class="contact-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-8 col-md-10 col-12">
+        
+        
+        <div class="contact-card">
+          
+          <div class="contact-header text-center mb-4">
+            <h5 class="contact-subtitle">GET IN TOUCH</h5>
+            <h2 class="contact-main-title">Begin Your Journey</h2>
+            <div class="contact-gold-divider"></div>
+          </div>
+          
+          <form class="contact-form">
+            <div class="form-group-wrapper">
+              <input id="name" type="text" placeholder="Your Name" class="form-input" required>
+            </div>
+            
+            <div class="form-group-wrapper">
+              <input type="email" placeholder="Your Email Address" class="form-input" required>
+            </div>
+            
+            <div class="form-group-wrapper">
+              <textarea placeholder="Tell us about your dream destination..." rows="5" class="form-input form-textarea" required></textarea>
+            </div>
+            
+            <!-- Sleek Interactive Submit Action -->
+            <button type="submit" class="btn-submit" id="btn">
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<hr>
+  <footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      
+      
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="footer-brand-box">
+          <h3 class="footer-logo">FLIGHT EXPERTS <span class="gold-dot">.</span></h3>
+          <p class="brand-tagline">Crafting ultra-premium, bespoke journeys for global travelers seeking unmatched luxury and timeless destinations.</p>
+          <div class="footer-social-links">
+            <a href="#" class="social-icon-link" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+            <a href="#" class="social-icon-link" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a>
+            <a href="#" class="social-icon-link" aria-label="Pinterest"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0"/>
+              </svg></a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-2 col-md-6 col-6">
+        <h4 class="footer-heading">Discover</h4>
+        <ul class="footer-menu-list">
+          <li><a href="#tours-packages" class="footer-menu-link">Curated Tours</a></li>
+          <li><a href="#hot-deals" class="footer-menu-link">Limited Hot Deals</a></li>
+          <li><a href="#flights" class="footer-menu-link">Flight Gateways</a></li>
+          <li><a href="#feedback" class="footer-menu-link">Guest Stories</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-lg-2 col-md-6 col-6">
+        <h4 class="footer-heading">Our Agency</h4>
+        <ul class="footer-menu-list">
+          <li><a href="#about" class="footer-menu-link">About Us</a></li>
+          <li><a href="#contact" class="footer-menu-link">Bespoke Planning</a></li>
+          <li><a href="#" class="footer-menu-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-menu-link">Terms & Safety</a></li>
+        </ul>
+      </div>
+
+    
+      <div class="col-lg-4 col-md-6 col-12">
+        <h4 class="footer-heading">The Edit</h4>
+        <p class="newsletter-info">Subscribe to receive private invitations, seasonal route updates, and elite priority vouchers.</p>
+        <form class="footer-newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Your Email Address" class="newsletter-input" required>
+          <button type="submit" class="newsletter-submit-btn" aria-label="Subscribe">&#10142;</button>
+        </form>
+      </div>
+
+    </div>
+
+   
+    <div class="footer-bottom-divider"></div>
+
+    
+    <div class="footer-bottom-meta d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="copyright-text">&copy; 2026 Fights Experts. All rights reserved.</p>
+      <p class="credit-text">Designed with premium elegance.</p>
+    </div>
+
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
